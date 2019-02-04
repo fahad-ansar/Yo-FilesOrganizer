@@ -1,27 +1,29 @@
 package FileOrganizer;
 
 import java.io.File;
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class FileFunctions {
 
-    Set<String> types = new HashSet<>();
 
-    public String[] readFile(String path, String[] files){
+
+
+
+    public String[] readSFile(String path){
         File f = new File(path);
 
+        String[] d = f.list();
 
-        files = f.list();
 
-
-        return files;
+        return d;
     }
 
-    public Set<String> getExtentions(String[] names){
+    public Set<String> getExtentions(String[] names, String[] paths){
+        Set<String> types = new HashSet<>();
+
 
         for (int i = 0; i <names.length ; i++) {
-            if(names[i].indexOf('.')>=0) {
+            if(!new File(paths[i]).isDirectory()){
                 String str = "";
                 for (int j = names[i].length() - 1; j > 0; j--) {
                     if (names[i].charAt(j) == '.') {
@@ -33,6 +35,7 @@ public class FileFunctions {
                 types.add("" + new StringBuffer(str).reverse());
             }
         }
+
         return types;
     }
 
