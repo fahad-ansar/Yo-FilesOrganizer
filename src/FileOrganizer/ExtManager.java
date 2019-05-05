@@ -7,12 +7,12 @@ public class ExtManager{
     private String[] audio = {"mp3","wav",     "mid","mpa","ogg","cda","aif","wpl"}; //0-1
     private String[] video = {"mp4","wmv","mov","h264","3gp","avi","mkv","flv","m4v",     "3g2","mpg","mpeg","rm","swf","wob"};//0-7
     private String[] documents = {"xls","ppt","doc","pdf","txt","xlsx","pps","pptx","docx","xml",    "csv","ods","xlr","key"
-            ,"odp","odt","rtf","tex","wks","wpd","dat","db","dbf","log","mdb","sav","sql","tar"};//0-10
-    private String[] pictures = {"jpg","jpeg","CR2","png","gif","bmp", "psd","HEIC","svg","tif",    "tiff","ai","ico","ps"};//0-8
+            ,"odp","odt","rtf","onepkg",  "epub","tex","wks","wpd","dat","db","dbf","log","mdb","sav","sql","tar" , "mht" , "one"};//0-10
+    private String[] pictures = {"jpg","jpeg","CR2","png","gif","bmp", "psd","HEIC","svg","tif",    "tiff","ai","ico","ps","JPG" , "PNG"};//0-8
     private String[] systemfiles = {"sys","iso","tmp","bin","dll","dmg","ttf",  "bak","cab","cfg","cpl","cur","dmp","drv",
              "icns", "ico", "ini", "kkk", "msi","toast","vcd","fnt","fon","otf"};//0-6
     private String[] internet = {"html","css","xhtml","htm",  "torrent", "cgi","asp","com","cer","cfm","pl","part","rss"};//0-3
-    private String[] programming = {"c","class","cpp","cs","h","java","py","swift"  ,"js","sh","jsp","php","vb"};//0-7
+    private String[] programming = {"c","class","cpp","cs","h","java","py","swift"  ,"js","sh","jsp","php","vb","sml","CircuitProject", "icls" , "whl"};//0-7
     private String[] compressed = {"rar","zip","z",  "7z","arj","deb","pkg","rpm","gaz"};//0-2
     private String[] applications = {"exe","jar","apk",  "bat","gadget","wsf"};//0-3
 

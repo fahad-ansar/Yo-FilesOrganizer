@@ -1,7 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="FileOrganizer:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/FileOrganizer_jar</output-path>
+  <artifact type="jar" name="FileOrganizer:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
     <root id="archive" name="FileOrganizer.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/FileOrganizer/META-INF/MANIFEST.MF" />
+      </element>
       <element id="module-output" name="FileOrganizer" />
     </root>
   </artifact>
