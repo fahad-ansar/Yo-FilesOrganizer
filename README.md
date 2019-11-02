@@ -8,3 +8,7 @@
 https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 Follow link above and install java according to your needs!
+
+
+Credits:
+Initial idea: Paramvir Singh
