@@ -18,7 +18,7 @@ https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 Follow link above and install java according to your needs!
 
-### ScreenShots
+### ScreenShots (Top to bottom sequence)
 ![BeFunky-collage2](https://user-images.githubusercontent.com/44476743/88866439-b3542a00-d1d8-11ea-92bc-d02fe9afb435.jpg)
 
 
